@@ -14,5 +14,5 @@ def count_words(path):
         print(f"The file {path} has about {num_words} words.")
 
 
-path = Path('alice.txt')
+path = Path('C:/Users/jhamel/Documents/GitHub/pcc_3e/chapter_10/exceptions/alice.txt')
 count_words(path)

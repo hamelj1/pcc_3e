@@ -20,7 +20,7 @@ def get_new_username(path):
 
 def greet_user():
     """Greet the user by name."""
-    path = Path('username.json')
+    path = Path('C:/Users/jhamel/Documents/GitHub/pcc_3e/chapter_10/storing_data/username2.json')
     username = get_stored_username(path)
     if username:
         print(f"Welcome back, {username}!")

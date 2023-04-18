@@ -1,7 +1,7 @@
 from pathlib import Path
 
 
-path = Path('alice.txt')
+path = Path('C:/Users/jhamel/Documents/GitHub/pcc_3e/chapter_10/exceptions/alice.txt')
 try:
     contents = path.read_text(encoding='utf-8')
 except FileNotFoundError:

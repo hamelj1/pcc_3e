@@ -16,5 +16,6 @@ def count_words(path):
 filenames = ['alice.txt', 'siddhartha.txt', 'moby_dick.txt',
         'little_women.txt']
 for filename in filenames:
+    filename = 'C:/Users/jhamel/Documents/GitHub/pcc_3e/chapter_10/exceptions/'+filename
     path = Path(filename)
     count_words(path)

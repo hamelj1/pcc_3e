@@ -4,7 +4,7 @@ import json
 
 username = input("What is your name? ")
 
-path = Path('username.json')
+path = Path('C:/Users/jhamel/Documents/GitHub/pcc_3e/chapter_10/storing_data/username.json')
 contents = json.dumps(username)
 path.write_text(contents)
 
